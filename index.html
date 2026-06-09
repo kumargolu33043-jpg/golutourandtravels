@@ -19,57 +19,48 @@ color:#333;
 }
 
 header{
-background:#003366;
+background:#0a3d62;
 color:white;
 padding:20px;
 text-align:center;
 }
 
 header h1{
-font-size:38px;
-}
-
-header p{
-margin-top:10px;
+font-size:32px;
 }
 
 .hero{
-height:400px;
+padding:70px 20px;
+text-align:center;
 background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
-url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80');
+url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80');
 background-size:cover;
 background-position:center;
-display:flex;
-align-items:center;
-justify-content:center;
-text-align:center;
 color:white;
 }
 
-.hero-content h2{
-font-size:45px;
+.hero h2{
+font-size:38px;
 margin-bottom:15px;
 }
 
-.hero-content p{
-font-size:20px;
+.hero p{
+font-size:18px;
+margin-bottom:20px;
 }
 
 .btn{
-display:inline-block;
-margin-top:20px;
-padding:12px 25px;
-background:#ff9800;
+background:#25D366;
 color:white;
+padding:14px 28px;
 text-decoration:none;
-border-radius:5px;
+border-radius:8px;
 font-weight:bold;
 }
 
-.section-title{
+.section{
+padding:50px 20px;
 text-align:center;
-padding:40px 0 20px;
-color:#003366;
 }
 
 .services{
@@ -77,11 +68,115 @@ display:flex;
 flex-wrap:wrap;
 justify-content:center;
 gap:20px;
-padding:20px;
 }
 
 .card{
 background:white;
-width:280px;
-padding:25px;
-border-radius:
+width:260px;
+padding:20px;
+border-radius:12px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+.card h3{
+margin-bottom:10px;
+color:#0a3d62;
+}
+
+.contact{
+background:#0a3d62;
+color:white;
+padding:50px 20px;
+text-align:center;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+width:60px;
+height:60px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:30px;
+text-decoration:none;
+color:white;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Golu Tour & Travels</h1>
+<p>Train • Bus • Flight • Hotel • Taxi Booking</p>
+</header>
+
+<section class="hero">
+<h2>Your Trusted Travel Partner</h2>
+<p>All India Tour Packages, Taxi Services & Online Booking</p>
+<a class="btn" href="https://wa.me/916203366958">Book on WhatsApp</a>
+</section>
+
+<section class="section">
+<h2>Our Services</h2>
+<br>
+
+<div class="services">
+
+<div class="card">
+<h3>✈ Flight Booking</h3>
+<p>Domestic & International Flight Tickets</p>
+</div>
+
+<div class="card">
+<h3>🚆 Train Booking</h3>
+<p>Fast & Easy Railway Ticket Booking</p>
+</div>
+
+<div class="card">
+<h3>🚌 Bus Booking</h3>
+<p>All India Online Bus Tickets</p>
+</div>
+
+<div class="card">
+<h3>🚖 Taxi Service</h3>
+<p>Local & Outstation Cab Services</p>
+</div>
+
+<div class="card">
+<h3>🏨 Hotel Booking</h3>
+<p>Budget & Luxury Hotel Reservations</p>
+</div>
+
+<div class="card">
+<h3>🌄 Tour Packages</h3>
+<p>Bihar, Jharkhand & All India Tours</p>
+</div>
+
+</div>
+</section>
+
+<section class="contact">
+<h2>Contact Us</h2>
+<br>
+<p><strong>Golu Kumar</strong></p>
+<p>📞 6203366958</p>
+<p>📍 Bihar, India</p>
+</section>
+
+<footer>
+© 2026 Golu Tour & Travels | All Rights Reserved
+</footer>
+
+<a class="whatsapp" href="https://wa
